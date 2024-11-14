@@ -21,6 +21,10 @@ html {
 .btn {
   border-radius: 3px !important;
 }
+.btn:hover {
+    background-color: #7448de !important;
+}
+
 
 .btn-primary {
   background-color: #0b6ab8 !important;
@@ -30,12 +34,12 @@ html {
 .btn-primary:hover,
 .btn-primary:active,
 .btn-primary:visited {
-  background-color: #0e5ea0 !important;
+  background-color: #7448de !important;
   border-color: #0e5ea0 !important;
 }
 
 .navbar-mod {
-  background-color: rgb(10, 10, 48);
+  background-color: #ffffff;
   color: white !important;
 }
 .liner-gradient-sky {
@@ -152,4 +156,33 @@ th {
     rgba(255, 255, 255, 1) 100%
   );
   color: #482307;
+}
+
+.ftsize{
+    font-size: 20px;
+
+}
+
+.navlogo{
+    height: 65px;
+
+}
+
+.txtcolor{
+    color:#7448de;
+}
+
+.serbor{
+    border: 2px solid black;
+    border-radius:5px;
+    margin-right:5px;
+    text-align:center;
+}
+
+.fom{
+    margin-right:25px;
+}
+
+.mynav{
+    box-shadow: 0 5px 10px rgba(128, 128, 128, 0.348);
 }

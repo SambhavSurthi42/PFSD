@@ -18,6 +18,9 @@ class LoginForm(forms.Form):
                          validators.RegexValidator(r'^\d+$', 'Please enter a valid number.')])
     password = forms.CharField(widget=forms.PasswordInput)
 
+def home(request):
+    return render(request, 'home.html')
+
 
 def is_student_authorised(request, code):
     course = Course.objects.get(code=code)
